@@ -1,12 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
 
 html {
   height: 100%;
+  background-color: whitesmoke;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background-color: whitesmoke;
+}
+
+nav {
+  padding-right: 1rem;
+}
+
+a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.home:hover {
+  text-decoration: none;
+}
+.home {
+  color: gray;
+}
+
+main {
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  justify-self: flex-end;
+  padding-right: 1.5rem;
+}
+
+.center {
+  align-items: center;
+}
+
+.top-header {
+  width: 100%;
+  border-bottom: solid;
+  border-bottom-color: lightgray;
+  border-width: thin;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.cat-bg {
+  background-color: white;
+  border-radius: 0.5rem;
+  border: solid;
+  border-color: lightgray;
+  border-width: thin;
+}
+
+.cat1 {
+  background-image: url('https://octodex.github.com/images/Fintechtocat.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cat2 {
+  background-image: url('https://octodex.github.com/images/Brennatocat.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cat3 {
+  background-image: url('https://octodex.github.com/images/filmtocats.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cat4 {
+  background-image: url('https://octodex.github.com/images/Sentrytocat_octodex.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cat5 {
+  background-image: url('https://octodex.github.com/images/puddle_jumper_octodex.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cat6 {
+  background-image: url('https://octodex.github.com/images/boxertocat_octodex.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cat {
+  width: 23rem;
+  height: 23rem;
+  margin: 2rem;
+}
+
+.octodex {
+  width: 2rem;
+  padding-right: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.octo-title {
+  padding-right: 1rem;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.username {
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: -1rem;
+}
+
+.username-space {
+  padding-right: 0.5rem;
+}
+
+.gray {
+  color: grey;
+}
+
+.username-name:hover {
+  color: rgb(66, 66, 255);
+  text-decoration: underline;
+}
+
+.username-name {
+  padding: 0;
+  font-weight: bold;
 }
