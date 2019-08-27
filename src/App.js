@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import HelloWorld from './components/HelloWorld'
 import Cats from './components/Cats'
 import Header from './components/Header'
+import FavoriteCats from './components/FavoriteCats'
+import CatProp from './components/CatProp'
 
 class App extends Component {
   render() {
@@ -11,9 +13,10 @@ class App extends Component {
           <Header />
         </section>
 
-        <section>
-          <Cats />
-        </section>
+        {/* <Cats /> */}
+        <main class="top-header">
+          <FavoriteCats />
+        </main>
       </>
     )
   }
